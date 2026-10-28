@@ -5,7 +5,7 @@ Modular resume: content lives once in `data/*.yaml`, each PDF variant is a small
 ## Build
 ```bash
 # install typst: https://github.com/typst/typst/releases (or `brew install typst`)
-./build.sh                    # all variants -> out/
+./build.sh                    # all variants -> out/YYYY-MM-DD/ (re-running same day overwrites)
 ./build.sh fullstack-1page    # one variant
 typst watch --root . --input variant=fullstack-1page main.typ out/preview.pdf   # live preview
 ```

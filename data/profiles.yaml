@@ -1,24 +1,26 @@
 fullstack:
-  headline: Sr. Software Engineer
+  headline: Senior Software Engineer | Full-Stack
   summary: >-
-    Senior Full-Stack Engineer with an M.Tech in Computer Science from IIT Kanpur and 5+ years of
-    experience designing scalable, high-throughput web platforms. Proven track record architecting
-    resilient public APIs, complex financial workflows, and low-latency distributed systems using
-    Node.js, Python, and React. Combines high-performance computing principles with modern cloud
-    infrastructure to drive product scalability and developer efficiency.
+    Senior Full-Stack Software Engineer with 5+ years of experience building scalable web platforms
+    and an M.Tech in Computer Science from IIT Kanpur. Designs and ships public REST APIs, financing
+    integrations, and customer-facing React applications backed by Node.js and Python microservices.
+    Applies distributed systems and high-performance computing expertise to deliver reliable,
+    low-latency products on AWS, GCP, and Azure, and mentors engineers on testing and API quality.
 
 backend:
-  headline: Sr. Backend Engineer
+  headline: Senior Software Engineer | Backend
   summary: >-
-    Backend-focused Senior Engineer with an M.Tech in Computer Science from IIT Kanpur and 5+ years
-    building public APIs, third-party financing integrations, and low-latency distributed systems
-    with Node.js, Python, and Java. Background in high-performance computing (OpenMPI, Spark) and
-    cloud infrastructure across AWS, GCP, and Azure.
+    Senior Backend Software Engineer with 5+ years of experience and an M.Tech in Computer Science
+    from IIT Kanpur. Builds public REST APIs, third-party financing integrations, and low-latency
+    microservices using Node.js, Python, and Java. Strong foundation in distributed systems and
+    high-performance computing (Apache Spark, OpenMPI) with hands-on cloud experience across AWS,
+    GCP, and Azure, Docker, and CI/CD.
 
 ai-ml:
-  headline: Software Engineer — AI / ML Systems
+  headline: Software Engineer | AI / ML Systems
   summary: >-
-    Software Engineer with an M.Tech in Computer Science from IIT Kanpur and 5+ years of production
-    engineering experience, now building GPU-accelerated ML systems: real-time 3D reconstruction,
-    object detection, and LLM tooling (LangChain, MCP). Combines distributed-systems and HPC
-    expertise with full-stack delivery to ship ML products end to end.
+    Software Engineer with 5+ years of production experience and an M.Tech in Computer Science from
+    IIT Kanpur, building GPU-accelerated machine learning systems: real-time 3D reconstruction,
+    computer vision and object detection with PyTorch and CUDA, and LLM tooling with LangChain and
+    Model Context Protocol (MCP). Combines distributed systems and HPC expertise with full-stack
+    delivery (FastAPI, Next.js, Docker) to ship ML products end to end.

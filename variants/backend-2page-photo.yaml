@@ -1,0 +1,7 @@
+template: classic
+profile: backend
+photo: true
+tags: [backend]
+include_school: true
+accent_color: "#2d5f2e"
+sections: [summary, experience, skills, projects, education, certifications, awards]

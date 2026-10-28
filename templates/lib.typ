@@ -69,7 +69,7 @@
 
 #let render-section(name, data, accent) = {
   if name == "summary" {
-    section("Profile", accent)
+    section("Professional Summary", accent)
     par(justify: true, data.profile.summary)
   } else if name == "experience" {
     section("Work Experience", accent)
@@ -85,17 +85,11 @@
     for e in data.education { entry(e.degree, e.org, dates(e), e.at("score", default: ""), ()) }
   } else if name == "skills" {
     section("Skills", accent)
-    grid(
-      columns: (auto, 1fr),
-      column-gutter: 10pt,
-      row-gutter: 5pt,
-      ..data.skills.map(s => (text(weight: "bold", s.category), s.items.join(", "))).flatten(),
-    )
+    for s in data.skills { block(below: 4pt)[*#s.category:* #s.items.join(", ")] }
   } else if name == "certifications" {
     section("Certifications", accent)
     for c in data.certifications {
-      grid(columns: (1fr, auto), [*#c.name* — #c.issuer], text(size: 9pt, c.at("date", default: "")))
-      v(2pt)
+      block(below: 5pt, grid(columns: (1fr, auto), [*#c.name* — #c.issuer], text(size: 9pt, c.at("date", default: ""))))
     }
   } else if name == "awards" {
     section("Awards & Scholarships", accent)

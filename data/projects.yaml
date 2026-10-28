@@ -3,36 +3,36 @@
   date: "2026"
   tags: [ai-ml, fullstack]
   bullets:
-    - Built a GPU-accelerated 3D reconstruction pipeline using Fast3R and CUDA to convert multi-view imagery into dense point clouds.
-    - Engineered a real-time WebSocket streaming pipeline utilizing raw Float32Array buffers to bypass React state overhead, achieving 60 FPS rendering for 1M+ points.
-    - Containerized the multi-service architecture using Docker Compose and NVIDIA Container Toolkit for reproducible, hardware-accelerated deployments.
+    - Built a GPU-accelerated 3D reconstruction pipeline with Fast3R and CUDA that converts multi-view images into dense point clouds.
+    - Streamed point data over WebSockets as raw Float32Array buffers, bypassing React state to render 1M+ points at 60 FPS.
+    - Containerized the multi-service architecture with Docker Compose and NVIDIA Container Toolkit for reproducible GPU deployments.
 - name: Real-Time Object Detection
   stack: Python, PyTorch, CUDA, OpenCV, Streamlit
   date: "2025"
   tags: [ai-ml]
   bullets:
-    - Developed an end-to-end real-time object detection service utilizing YOLO and CUDA acceleration for low-latency video inference.
-    - Built an interactive Streamlit monitoring dashboard with dynamic frame-rate tracking and configurable confidence thresholds for live camera streams.
+    - Developed a real-time object detection service using YOLO with CUDA acceleration for low-latency video inference.
+    - Built a Streamlit monitoring dashboard with live frame-rate tracking and configurable confidence thresholds for camera streams.
 - name: Evaluation of Spark and MPI for Scientific Data Analysis
-  org: IIT Kanpur (Thesis)
+  org: IIT Kanpur (M.Tech Thesis)
   stack: Apache Spark, C++, OpenMPI
   date: 08/2020 – 05/2021
   tags: [backend, fullstack, ai-ml]
   bullets:
-    - Benchmarked traditional OpenMPI against Apache Spark across distributed clusters to evaluate throughput on CPU, memory, and I/O-intensive workloads.
-    - Analyzed execution efficiency across massive scientific datasets spanning astrophysics, meteorology, and combustion simulations.
+    - Benchmarked OpenMPI against Apache Spark on distributed clusters, comparing throughput on CPU-, memory-, and I/O-intensive workloads.
+    - Analyzed performance on large scientific datasets from astrophysics, meteorology, and combustion simulations.
 - name: CloudMPI
   org: IIT Kanpur
   stack: C++, OpenMPI, Distributed Systems
   date: 01/2020 – 05/2020
   tags: [backend]
   bullets:
-    - Designed a cloud-augmented MPI communication library to mitigate network latency and enhance distributed computation performance in virtualized environments.
-    - Optimized underlying network communication primitives over standard MPI to efficiently handle high-latency cloud interconnects.
-- name: Malware Detection using ML
+    - Designed a cloud-aware MPI communication library that reduces the impact of network latency on distributed computation in virtualized environments.
+    - Optimized MPI communication primitives to handle high-latency cloud interconnects efficiently.
+- name: Malware Detection using Machine Learning
   org: IIT Kanpur
   stack: Python, scikit-learn
   date: 01/2020 – 05/2020
   tags: [ai-ml]
   bullets:
-    - Developed and evaluated Random Forest classification models to identify malicious binaries using static and dynamic feature extraction datasets.
+    - Trained and evaluated Random Forest classifiers to detect malicious binaries using static and dynamic analysis features.

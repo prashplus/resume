@@ -1,7 +1,6 @@
-template: modern
+template: classic
 profile: fullstack
 photo: true
 tags: []          # empty = include everything
 include_school: true
-sections: [summary, experience, projects]
-sidebar_sections: [skills, education, certifications, awards]
+sections: [summary, experience, skills, projects, education, certifications, awards]

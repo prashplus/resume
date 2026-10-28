@@ -1,13 +1,15 @@
-- category: Languages & Frameworks
-  items: [JavaScript, TypeScript, Java, Python, C++, React.js, Redux, Node.js, Spring Boot]
+- category: Languages
+  items: [JavaScript, TypeScript, Python, Java, C++, SQL]
+- category: Frameworks & Libraries
+  items: [React.js, Redux, Next.js, Node.js, Express.js, Spring Boot, FastAPI, Material-UI]
 - category: Backend & APIs
-  items: [RESTful APIs, Microservices, Model Context Protocol (MCP), LangChain]
+  items: [REST APIs, Microservices, WebSockets, API Design, Model Context Protocol (MCP), LangChain]
 - category: Databases & Caching
   items: [MongoDB, MySQL, Redis]
 - category: Cloud & DevOps
-  items: [Docker, "AWS (EC2, S3)", GCP (GKE), "Azure (VMs, Blob storage)", Git, CircleCI (CI/CD)]
-- category: Distributed Systems & Tools
-  items: [Apache Spark, OpenMPI, Material-UI]
+  items: [AWS (EC2, S3), GCP (GKE), "Azure (VMs, Blob Storage)", Docker, Kubernetes, CI/CD (CircleCI), Git]
+- category: Distributed Systems & HPC
+  items: [Apache Spark, OpenMPI, Ceph]
 - category: AI / ML
-  items: [PyTorch, CUDA, OpenCV, YOLO, scikit-learn, FastAPI]
-  tags: [ai-ml]
+  items: [PyTorch, CUDA, OpenCV, YOLO, scikit-learn, Computer Vision]
+  tags: [ai-ml, fullstack]

@@ -11,10 +11,8 @@
   show link: set text(fill: accent)
 
   let header-text = {
-    text(size: 22pt, weight: "bold", b.name)
-    linebreak()
-    text(size: 12pt, fill: accent, data.profile.headline)
-    v(2pt)
+    block(below: 6pt, text(size: 22pt, weight: "bold", b.name))
+    block(below: 6pt, text(size: 12pt, fill: accent, data.profile.headline))
     text(size: 8.5pt, contact-items(b).join("  |  "))
   }
   if cfg.at("photo", default: false) {

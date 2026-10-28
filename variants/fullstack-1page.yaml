@@ -1,0 +1,9 @@
+template: classic
+profile: fullstack
+photo: false
+tags: [fullstack]
+max_bullets_per_role: 3
+max_projects: 2
+max_bullets_per_project: 2
+sections: [summary, experience, skills, projects, education, awards]
+font_size: 9

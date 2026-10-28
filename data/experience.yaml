@@ -1,0 +1,39 @@
+# Each bullet has tags; variants filter bullets by tag. "core" bullets always show.
+- title: Sr. Software Engineer
+  org: Enphase Energy
+  location: Bengaluru
+  start: 06/2023
+  end: Present
+  bullets:
+    - text: Architected and delivered a redesigned proposal user interface within 5 months, incorporating targeted user feedback to significantly boost client engagement and product adoption.
+      tags: [fullstack, frontend]
+    - text: Designed and deployed Solargraf's external Public API alongside developer documentation, reducing partner onboarding time and accelerating third-party integration efficiency within 4 months.
+      tags: [core, backend, fullstack]
+    - text: Engineered end-to-end backend integrations for multiple Third-Party Ownership (TPO) financing providers, streamlining automated credit, leasing, and purchase workflows for installers and homeowners.
+      tags: [backend, fullstack]
+    - text: Spearheaded technical standards across the Solargraf ecosystem by optimizing API performance, establishing rigorous testing coverage, and mentoring cross-functional engineering teams.
+      tags: [core, backend, fullstack, ai-ml]
+
+- title: Software Engineer
+  org: Enphase Energy
+  location: Bengaluru
+  start: 08/2021
+  end: 05/2023
+  bullets:
+    - text: Revamped the Enlighten Manager dashboard, streamlining solar fleet monitoring and asset management workflows to improve operational efficiency for installers.
+      tags: [fullstack, frontend]
+    - text: Engineered an automated BOM (Bill of Materials) Calculator with real-time pricing integration within 3 months, boosting customer satisfaction scores by 5%.
+      tags: [core, fullstack, backend]
+    - text: Optimized front-end and back-end performance across core installer tools, reducing query latency and accelerating quoting cycle times.
+      tags: [backend, fullstack, ai-ml]
+
+- title: Intern
+  org: Centre for Development of Advanced Computing, R&D
+  location: Pune
+  start: 01/2018
+  end: 04/2018
+  bullets:
+    - text: Built an open-source Network Emulator and integrated IDE, simplifying software-defined networking (SDN) application development and significantly cutting workflow setup time for researchers.
+      tags: [core, backend, fullstack]
+    - text: Architected and deployed a Ceph distributed storage cluster for the SDN Online Lab, enhancing data fault tolerance, high availability, and rapid retrieval speeds.
+      tags: [backend, ai-ml]

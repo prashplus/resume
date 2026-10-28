@@ -1,0 +1,13 @@
+- category: Languages & Frameworks
+  items: [JavaScript, TypeScript, Java, Python, C++, React.js, Redux, Node.js, Spring Boot]
+- category: Backend & APIs
+  items: [RESTful APIs, Microservices, Model Context Protocol (MCP), LangChain]
+- category: Databases & Caching
+  items: [MongoDB, MySQL, Redis]
+- category: Cloud & DevOps
+  items: [Docker, "AWS (EC2, S3)", GCP (GKE), "Azure (VMs, Blob storage)", Git, CircleCI (CI/CD)]
+- category: Distributed Systems & Tools
+  items: [Apache Spark, OpenMPI, Material-UI]
+- category: AI / ML
+  items: [PyTorch, CUDA, OpenCV, YOLO, scikit-learn, FastAPI]
+  tags: [ai-ml]

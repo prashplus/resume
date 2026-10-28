@@ -1,0 +1,24 @@
+fullstack:
+  headline: Sr. Software Engineer
+  summary: >-
+    Senior Full-Stack Engineer with an M.Tech in Computer Science from IIT Kanpur and 5+ years of
+    experience designing scalable, high-throughput web platforms. Proven track record architecting
+    resilient public APIs, complex financial workflows, and low-latency distributed systems using
+    Node.js, Python, and React. Combines high-performance computing principles with modern cloud
+    infrastructure to drive product scalability and developer efficiency.
+
+backend:
+  headline: Sr. Backend Engineer
+  summary: >-
+    Backend-focused Senior Engineer with an M.Tech in Computer Science from IIT Kanpur and 5+ years
+    building public APIs, third-party financing integrations, and low-latency distributed systems
+    with Node.js, Python, and Java. Background in high-performance computing (OpenMPI, Spark) and
+    cloud infrastructure across AWS, GCP, and Azure.
+
+ai-ml:
+  headline: Software Engineer — AI / ML Systems
+  summary: >-
+    Software Engineer with an M.Tech in Computer Science from IIT Kanpur and 5+ years of production
+    engineering experience, now building GPU-accelerated ML systems: real-time 3D reconstruction,
+    object detection, and LLM tooling (LangChain, MCP). Combines distributed-systems and HPC
+    expertise with full-stack delivery to ship ML products end to end.

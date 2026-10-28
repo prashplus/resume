@@ -1,0 +1,19 @@
+name: Build resumes
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v4
+        with:
+          typst-version: 0.13.1
+      - run: ./build.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: resumes
+          path: out/*.pdf

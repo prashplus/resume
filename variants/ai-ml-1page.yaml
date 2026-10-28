@@ -1,0 +1,10 @@
+template: classic
+profile: ai-ml
+photo: false
+tags: [ai-ml]
+max_bullets_per_role: 2
+max_projects: 3
+max_bullets_per_project: 2
+accent_color: "#6a1b9a"
+sections: [summary, skills, projects, experience, education, awards]
+font_size: 9

@@ -1,0 +1,10 @@
+template: classic
+profile: backend
+photo: false
+tags: [backend]
+max_bullets_per_role: 3
+max_projects: 2
+max_bullets_per_project: 2
+accent_color: "#2d5f2e"
+sections: [summary, experience, skills, projects, education, awards]
+font_size: 9

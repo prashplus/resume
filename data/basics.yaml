@@ -1,0 +1,12 @@
+name: Prashant Piprotar
+email: prashplus@gmail.com
+phone: "+91 95746 30231"
+location: Bengaluru
+photo: /assets/photo.jpg
+links:
+  - label: www.prashplus.com
+    url: https://www.prashplus.com
+  - label: linkedin.com/in/prashantpiprotar
+    url: https://linkedin.com/in/prashantpiprotar
+  - label: github.com/prashplus
+    url: https://github.com/prashplus

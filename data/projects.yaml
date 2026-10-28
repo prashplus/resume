@@ -1,0 +1,38 @@
+- name: AetherScan
+  stack: Next.js, FastAPI, PyTorch, Three.js, Docker
+  date: "2026"
+  tags: [ai-ml, fullstack]
+  bullets:
+    - Built a GPU-accelerated 3D reconstruction pipeline using Fast3R and CUDA to convert multi-view imagery into dense point clouds.
+    - Engineered a real-time WebSocket streaming pipeline utilizing raw Float32Array buffers to bypass React state overhead, achieving 60 FPS rendering for 1M+ points.
+    - Containerized the multi-service architecture using Docker Compose and NVIDIA Container Toolkit for reproducible, hardware-accelerated deployments.
+- name: Real-Time Object Detection
+  stack: Python, PyTorch, CUDA, OpenCV, Streamlit
+  date: "2025"
+  tags: [ai-ml]
+  bullets:
+    - Developed an end-to-end real-time object detection service utilizing YOLO and CUDA acceleration for low-latency video inference.
+    - Built an interactive Streamlit monitoring dashboard with dynamic frame-rate tracking and configurable confidence thresholds for live camera streams.
+- name: Evaluation of Spark and MPI for Scientific Data Analysis
+  org: IIT Kanpur (Thesis)
+  stack: Apache Spark, C++, OpenMPI
+  date: 08/2020 – 05/2021
+  tags: [backend, fullstack, ai-ml]
+  bullets:
+    - Benchmarked traditional OpenMPI against Apache Spark across distributed clusters to evaluate throughput on CPU, memory, and I/O-intensive workloads.
+    - Analyzed execution efficiency across massive scientific datasets spanning astrophysics, meteorology, and combustion simulations.
+- name: CloudMPI
+  org: IIT Kanpur
+  stack: C++, OpenMPI, Distributed Systems
+  date: 01/2020 – 05/2020
+  tags: [backend]
+  bullets:
+    - Designed a cloud-augmented MPI communication library to mitigate network latency and enhance distributed computation performance in virtualized environments.
+    - Optimized underlying network communication primitives over standard MPI to efficiently handle high-latency cloud interconnects.
+- name: Malware Detection using ML
+  org: IIT Kanpur
+  stack: Python, scikit-learn
+  date: 01/2020 – 05/2020
+  tags: [ai-ml]
+  bullets:
+    - Developed and evaluated Random Forest classification models to identify malicious binaries using static and dynamic feature extraction datasets.

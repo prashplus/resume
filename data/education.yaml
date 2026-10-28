@@ -1,0 +1,18 @@
+- degree: M. Tech. in Computer Science and Engineering
+  org: Indian Institute of Technology, Kanpur
+  score: "GPA: 8.6/10"
+  start: 07/2019
+  end: 06/2021
+- degree: B. Tech. in Computer Engineering
+  org: CSPIT, Charotar University of Science and Technology
+  score: "GPA: 9.04/10"
+  start: 07/2014
+  end: 05/2018
+- degree: XII (C.B.S.E.)
+  org: K.V. No. 2, Jamnagar
+  score: "81%"
+  minor: true
+- degree: X (C.B.S.E.)
+  org: K.V. No. 2, Jamnagar
+  score: "GPA: 10/10"
+  minor: true

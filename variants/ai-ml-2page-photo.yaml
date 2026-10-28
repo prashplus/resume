@@ -4,4 +4,4 @@ photo: true
 tags: [ai-ml]
 include_school: true
 accent_color: "#6a1b9a"
-sections: [summary, skills, projects, experience, education, certifications, awards]
+sections: [summary, skills, projects, experience, education, certifications, awards, languages]

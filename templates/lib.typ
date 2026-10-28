@@ -37,6 +37,7 @@
     education: education,
     certifications: yaml("/data/certifications.yaml"),
     awards: yaml("/data/awards.yaml"),
+    languages: yaml("/data/languages.yaml"),
   )
 }
 
@@ -94,6 +95,9 @@
   } else if name == "awards" {
     section("Awards & Scholarships", accent)
     for a in data.awards { grid(columns: (1fr, auto), [*#a.name*], text(size: 9pt, a.at("date", default: ""))) }
+  } else if name == "languages" {
+    section("Languages", accent)
+    data.languages.map(l => [*#l.name* (#l.level)]).join(", ")
   }
 }
 

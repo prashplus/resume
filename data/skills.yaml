@@ -3,7 +3,7 @@
 - category: Frameworks & Libraries
   items: [React.js, Redux, Next.js, Node.js, Express.js, Spring Boot, FastAPI, Material-UI]
 - category: Backend & APIs
-  items: [REST APIs, Microservices, WebSockets, API Design, Model Context Protocol (MCP), LangChain]
+  items: [REST APIs, Microservices, WebSockets, API Design, Model Context Protocol (MCP), LangChain, LangGraph]
 - category: Databases & Caching
   items: [MongoDB, MySQL, Redis]
 - category: Cloud & DevOps
